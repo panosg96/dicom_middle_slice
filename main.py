@@ -7,9 +7,9 @@ from io import BytesIO
 from collections import defaultdict
 
 # Configuration
-dicom_root_folder = '/root/Desktop/workspace/data/pgoulas/Exam_test_dir/'
+dicom_root_folder = '/Desktop/dcm_img_tests'
 output_csv = 'middle_slices_summary3.csv'
-n = 4  # Number of slices in each side of the middle slice (2n+1)
+n = 1  # Number of slices in each side of the middle slice (2n+1)
 
 # Read DICOM path
 def readDicomFile(file_path):
