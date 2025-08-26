@@ -37,7 +37,7 @@ for root, _, files in os.walk(dicom_root_folder):
                 series_dict[series_uid].append((ds, full_path))
 
 
-# Tags to be extracted
+# Tags to be extracted (Can be modified as needed)
 tags_to_extract = [
     'StudyInstanceUID', 'SeriesInstanceUID', 'SOPInstanceUID',
     'Modality', 'WindowCenter', 'WindowWidth', 'RescaleIntercept', 'RescaleSlope',
